@@ -1,0 +1,49 @@
+
+
+<div class="container-fluid">
+  <div class="col-12">
+    <img src="../assets/img/cafe.png" class="img-fluid. max-width: 30%" alt="Responsive image">
+  </div>
+</div>
+<br>
+<!-- Next Steps -->
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Tipo</th>
+          <th>Región</th>
+        </tr>
+      </thead>
+      <tbody>
+
+
+ <tr *ngFor="let c of misdatos">
+  <td>
+    {{c.id}}
+  </td>
+  <td>
+    {{c.nombre}}
+  </td>
+  <td>
+    {{c.tipo}}
+  </td>
+  <td>
+    {{c.region}}
+  </td>
+</tr>
+
+
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
