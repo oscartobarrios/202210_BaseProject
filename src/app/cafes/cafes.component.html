@@ -1,11 +1,13 @@
-
-
 <div class="container-fluid">
   <div class="col-12">
-    <img src="../assets/img/cafe.png" class="img-fluid. max-width: 30%" alt="Responsive image">
+    <img
+      src="../assets/img/cafe.png"
+      class="img-fluid. max-width: 30%"
+      alt="Responsive image"
+    />
   </div>
 </div>
-<br>
+<br />
 <!-- Next Steps -->
 <div class="container-fluid">
   <div class="col-6">
@@ -19,31 +21,26 @@
         </tr>
       </thead>
       <tbody>
-
-
- <tr *ngFor="let c of misdatos">
-  <td>
-    {{c.id}}
-  </td>
-  <td>
-    {{c.nombre}}
-  </td>
-  <td>
-    {{c.tipo}}
-  </td>
-  <td>
-    {{c.region}}
-  </td>
-</tr>
-
-
-
+        <tr *ngFor="let c of misdatos">
+          <td>
+            {{ c.id }}
+          </td>
+          <td>
+            {{ c.nombre }}
+          </td>
+          <td>
+            {{ c.tipo }}
+          </td>
+          <td>
+            {{ c.region }}
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
 </div>
 
+Total café de origen = {{ total }}<br>
+Total café blend = {{ blend }}
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
